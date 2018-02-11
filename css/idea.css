@@ -1,0 +1,135 @@
+body {
+  margin-top: 0;
+  text-align: center;
+  background-color: black;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  background: black;
+  display: block;
+  padding: 12px 0 12px 0;
+  margin:0 0 0 -8px;
+  width:100vw;
+
+}
+
+.navigation a {
+  color:white;
+  font-weight: 300;
+  padding:15px;
+  text-transform:uppercase;
+}
+
+.logo {
+  font-size:36px;
+  font-family: 'Nunito';
+  font-weight:400;
+  position: relative;
+  text-align: right;
+  left:-32vw;
+  margin-left: 10px;
+}
+
+.backHome {
+  font-size:15px;
+  position:relative;
+  top:-8px;
+  right:-30vw;
+  font-weight:400;
+  padding-bottom: 15px;
+  border: 1px solid;
+  margin-top:-15px;
+  margin-right:10px;
+}
+
+.backHome:active, .backHome:hover {
+  color:#FCA311;
+}
+
+.engine {
+  margin:0 0 0 0;
+  padding-top:7vh;
+  background: #f6f6f6;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  color:#FCA311;
+}
+
+.grid {
+
+}
+
+.categories {
+  display: inline-block;
+  vertical-align: center;
+  margin: 0 5vh 5vw;
+}
+
+.categories select {
+  border-radius: 25px;
+  border: 2px solid #04213d;
+  height:52px;
+  padding:5px 15px 5px 10px;
+  font-size:15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.section {
+  width:35vw;
+  height:20vh;
+  margin:5vh auto 5vh auto;
+  padding:25px;
+  font-size:20px;
+  border:1px solid;
+  border-color: #777;
+  border-bottom: 0;
+  border-right: 0;
+  text-align:left;
+  display: inline-block;
+  vertical-align:top;
+  background: #f8f8f8;
+}
+
+.button {
+    border: 2px solid #04213d;
+    border-radius:25px;
+    background-color: #04213d;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:active, .button:hover {
+  background-color: #fca311;
+  border-color:#fca311;
+  color:black;
+}
+
+
+footer {
+  background:black;
+  color:white;
+  padding: 10px 0 10px 0;
+  margin-top: -8px;
+  margin-left:-8px;
+
+}
+
+footer p {
+  padding:0px;
+}
