@@ -1,5 +1,7 @@
 :root {
   --font-size: 20px;
+  --orange: #fca311;
+  --blue: #04213d;
 }
 
 * {
@@ -60,7 +62,7 @@ h1 {
 
 h2 {
   font-size: 1em;
-  color:#FCA311;
+  color: var(--orange);
 }
 
 .engine {
@@ -101,7 +103,7 @@ h2 {
 
 .categories select {
   border-radius: 25px;
-  border: 2px solid #04213d;
+  border: 2px solid var(--blue);
   height:52px;
   padding:5px 15px 5px 10px;
   font-size:0.8em;
@@ -109,21 +111,22 @@ h2 {
 }
 
 .button {
-  border: 2px solid #04213d;
+  border: 2px solid var(--blue);
   border-radius: 25px;
-  background-color: #04213d;
+  background-color: var(--blue);
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 0.8em;
+  cursor: pointer;
 }
 
 .button:active, .button:hover {
-  background-color: #fca311;
-  border-color:#fca311;
-  color:black;
+  background-color: var(--orange);
+  border-color: var(--orange);
+  color: black;
 }
 
 
@@ -136,7 +139,18 @@ footer {
   bottom: 0%;
 }
 
+footer i {
+  color: white;
+  font-size: 2em;
+  margin: 0 5px 5px;
+}
+
+footer a:hover, a:active {
+  color: var(--orange);
+}
+
 footer p {
+  font-size: 0.8em;
   padding:0px;
 }
 
@@ -166,35 +180,19 @@ footer p {
 
   .categories select {
     border-radius: 0;
-    border: 2px solid #04213d;
     flex-shrink: 1; 
-    height:52px;
     padding:5px 15px 5px 10px;
-    font-size:0.8em;
-    font-family: 'Raleway', sans-serif;
     width: 50vw;
   }
   
   .button {
     border-radius: 0;
-    background-color: #04213d;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 0.8em;
+    flex-shrink: 1; 
     width: 50vw;
   }
   
-  .button:active, .button:hover {
-    background-color: #fca311;
-    border-color:#fca311;
-    color:black;
-  }
-
   footer {
-    height: 18vh;
+    height: 23vh;
     position: initial;
     bottom: 0%;
   }
